@@ -1,9 +1,20 @@
-package uk.co.placona.helloWorld;
+package uk.co.placona.Cronometro;
 
-public class HelloWorld {
+public class Cronometro {
 
-	public String sayHello() {
-		return "Hello World";
+  int contador = 0;
+
+	public void reiniciar() {
+		contador = 0;
 	}
+
+  public void incrementar() {
+    contador = contador + 1;
+  }
+
+  public String mostrarValor() {
+    int minutos = contador / 60;
+    int segundos = contador % 60;
+  }
 
 }
