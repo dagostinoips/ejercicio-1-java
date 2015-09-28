@@ -15,6 +15,8 @@ public class Cronometro {
   public String mostrarValor() {
     int minutos = contador / 60;
     int segundos = contador % 60;
+
+    return segundos;
   }
 
 }
