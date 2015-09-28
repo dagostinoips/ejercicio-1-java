@@ -16,7 +16,7 @@ public class Cronometro {
     int minutos = contador / 60;
     int segundos = contador % 60;
 
-    String result = "" + minutos + " minutos " + segundos + " segundos"
+    String result = "" + minutos + " minutos " + segundos + " segundos";
     return result;
   }
 
