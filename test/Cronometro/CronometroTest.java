@@ -11,6 +11,6 @@ public class CronometroTest {
 	public void testHellowWorld(){
 		Cronometro cronometro = new Cronometro();
     cronometro.reiniciar();
-		assertEquals("Probar el cronometro en cero", 0, cronometro.mostrarValor());
+		assertEquals("Probar el cronometro en cero", "0 minutos 0 segundos", cronometro.mostrarValor());
 	}
 }
