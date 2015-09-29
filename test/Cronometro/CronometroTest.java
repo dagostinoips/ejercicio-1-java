@@ -16,7 +16,7 @@ public class CronometroTest {
 	}
 
   @Test
-  public void testCronometroEnCero(){
+  public void testCronometroEnUno(){
     Cronometro cronometro = new Cronometro();
     cronometro.incrementar();
     assertEquals("Probar el cronometro en uno", "0 minutos 1 segundos", cronometro.mostrarValor());
